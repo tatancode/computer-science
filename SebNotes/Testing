@@ -1,0 +1,176 @@
+	Definition of Testing: Testing is a process to show that a program does what it was designed to do and to find program defects/bugs before it is put into use. 
+		- Finding and preventing defects
+		- Gain confidence about quality
+		- Verify if all requirements have been met
+		- Reduce risk level
+		- Compliance (legal, contractual, regulatory)
+	
+	Quality Assurance
+	Quality assurance focuses on adherence to proper processes in order to increase confidence in the quality of the product. 
+		- Proper processes carried out lead to higher quality products which contributes to defect reduction.
+		- Quality assurance involves various activities including test activities. 
+	
+	Testing Principles
+		1. Testing shows presence of defects
+			a. Testing reduces the probability of undiscovered defects. Even if not bugs found, it is not a proof of correctness 
+		2. Exhaustive testing is not possible 
+			a. Too many possible scenarios, Execution time and costs rise
+		3. Early testing
+			a. As soon as possible in the software dev. Life cycle
+		4. Defect clustering
+			a. A small number of modules contain most of the bugs
+		5. Pesticide Paradox
+			a. Tests need to be regularly reviewed, adding new and different test cases to help find more defects.
+		6. Testing is context dependent 
+			a. Application types and requirements
+		7. Absence of errors - fallacy
+	
+	Software Testing life Cycle
+		Is the software testing process of the SDLC. Its purpose is to test and find defects to ensure the quality of a product. 
+		
+	
+	
+	
+	Testing Plans
+	It's a blueprint for running tests. Define what is to be tested, testing schedule, how tests will be recorded, scope, objectives and deadlines. 
+	
+	Test Suite
+	It's a collection of test cases that are intended to be used to test a software system
+	
+	Defining Test Phases
+		- Test Phase Assembly test
+		- Objective validation of specific functionality 
+		- Entry criteria: in other words, what's needed before validation 
+		- Exit criteria: all test scenarios executed, all defects have been logged, all critical defects resolved
+		- Deliverables: test script, issue log
+	
+	Other phases: 
+		- Application Product test: validation that product requirements are met
+		- Integration test: validation of end to end business process
+		- Performance test: validation of system under stress conditions, where expected volumes are being exceeded
+		- Regression test: validation of functionality that was build as part of previous releases 
+	
+	Test Case is a specification of the inputs, execution conditions, testing procedure and expected output.
+	-example:
+		Test #
+		Title: Make sure pens write on paper
+		Description: Designed to test the functionality of pen 1.0 when users want to sing a piece of paper. 
+		Precondition: User must have a pen and the Pen has ink, and a piece of paper.
+		Assumption: User knows how to write.
+		Steps: Grab the pen, click the ink provider controller, engage the tip of the pen against the paper, write numbers and names on a piece of paper. 
+		Test Data:
+		Expected result: pen successfully allows user to sing a letter. 
+		Actual Results
+		Status
+	
+	
+	Use Case
+	Is a description of how a user of a system or process will accomplish a goal. Use cases help Identify test cases.
+	
+	Testing Strategy
+	Collection of principles used as a guide for the testing approach of the software development cycle. 
+	
+	Defect
+	- Wrong: requirements were implemented incorrectly
+	- Missing: requirement was not implemented
+	- Extra: requirement added to the product and given by end customer, not included in initial requirements 
+	
+	
+	Testing Types
+	- Static Testing: testing without executing the code. 
+		- Reviews: Informal review, Walkthrough, Technical Review, Inspection
+	- Dynamic Testing
+		- Levels of testing: Unit, integration, System, UAT, and other non-functional testing
+	Functional Testing or Release Testing
+		- Focuses on the functionality and not the implementation
+		- Ensures the application meets the requirements to be released and used
+		- Black-box testing (feeding input and examining outputs, not the internal program structure)
+		- Can be manual or automated
+		- Describes what the product does
+	
+		- Types/Levels of Functional Testing:
+			○ Unit Test:  to test particular or individual functionality 
+			○ Sanity Testing: general health check
+			○ Smoke testing: done after build
+			○ Regression Tests: ensure adding new code does not create new bugs. 
+			○ Integration Testing: validation of scenarios where multiple modules interact
+			○ Usability testing: end customer is asked to use the software to see if the product is easy to use and get her feedback
+		
+		- Steps:
+			○ Determine functionality
+			○ Create input data
+			○ Determine output
+			○ Execute test cases
+			○ Compare expected vs real outcome
+		
+		- Techniques:
+			○ Positive testing: End user based tests, Decision tables, Alternate Path tests. 
+			○ Negative testing: Equivalence tests, ad-hoc tests, boundary value tests. 
+			
+		- Tools:
+			○ Ranorex
+			○ Selenium
+				□ Open-source for web app testing
+				□ Allows test script creation and automated testing
+				□ Allows Xpath > to query XML documents
+					® Absolute XPath: direct way to find element
+					® Relative Xpath: starts from the middle of the HTML DOM
+			○ Telerik Test Studio
+			○ Test IO
+			○ CUIT
+	
+	Non-Functional Testing
+	Checks non-functional aspects like performance, usability, reliability 
+		- Describes how the product works
+		- Types: performance testing, load testing, security testing, etc.
+	
+	Regression testing
+	A test suite is developed incrementally as a program is developed. Regression tests can be run to check that changes to the program have not introduced new bugs. 
+	
+	API testing
+	API is a way for two computers, servers to communicate and transfer data.
+	Type of testing that involves testing the application programming interface directly, its functionality and reliability, performance and security. 
+	Tests business logic, input-outputs, not Graphical User Interface. 
+	
+	Automation testing
+	Tests encoded in the program that is run each time the system under development is to be tested. 
+		- Supports execution of repeated tasks
+		- Enables parallel execution
+		- Aids in testing large test matrix
+		- Improves accuracy
+		- Saves time and money
+	
+	Manual Testing
+	For applications or features that only need to be tested once, it may be faster and more cost-effective to run a manual test.
+	For UI user interface testing can sometimes be more accurate. 
+	
+	Continuous Integration testing suites
+	A test suite is a collection of Test Cases that are intended to be used to test a software program. 
+	
+	
+	Bug Life Cycle
+	The cycle that a bug/defect goes through from beginning to end is called a Bug Life Cycle. 
+	
+	
+	
+	
+	Verification
+	Testing is done without the execution of the code
+	
+	Validation
+	Dynamic analysis technique where testing is done by executing the code
+	
+
+
+	Acceptance Plan
+	Requirement Document, Customer input, Project Plan, User manual
+	
+	Coverage
+	Measurement used in software testing to describe the degree to which the source code is tested
+		- Statement coverage: each line of code is executed and tested
+		- Decision Coverage: every decision is executed and tested
+		- Path Coverage: every route is executed and tested
+	Dev Tools
+	- Elements: to find HTML elements on the DOM
+	- Console: to find errors
+	- Network: logs all requests 
